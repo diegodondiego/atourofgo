@@ -4,8 +4,9 @@ import (
 	"fmt"
 )
 
-// fibonacci is a function that returns
-// a function that returns an int.
+// fibonacci is a function that 
+// 			returns a function [func(int)]
+// 				    that returns an int 
 func fibonacci() func(int) int {
 	x, y := 0, 1
 	return func(int) int {
